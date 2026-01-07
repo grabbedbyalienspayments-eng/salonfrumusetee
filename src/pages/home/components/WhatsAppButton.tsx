@@ -1,6 +1,6 @@
 export default function WhatsAppButton() {
   const handleWhatsAppClick = () => {
-    const phoneNumber = '+40721234567';
+    const phoneNumber = '0700000000';
     const message = 'Bună ziua! Aș dori să fac o programare la Divine Beauty Studio.';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
