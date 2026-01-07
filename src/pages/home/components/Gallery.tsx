@@ -15,11 +15,6 @@ export default function Gallery() {
       category: "Machiaj"
     },
     {
-      src: "https://readdy.ai/api/search-image?query=Facial%20treatment%20spa-like%20luxury%20environment%2C%20professional%20skincare%20procedure%2C%20pink%20and%20gold%20aesthetic%2C%20premium%20beauty%20salon%2C%20relaxing%20atmosphere%2C%20elegant%20treatment%20room%2C%20soft%20lighting&width=600&height=400&seq=gallery-3&orientation=landscape",
-      alt: "Tratament facial",
-      category: "Cosmetică"
-    },
-    {
       src: "https://readdy.ai/api/search-image?query=Professional%20hair%20coloring%20luxury%20salon%2C%20elegant%20hair%20transformation%2C%20pastel%20pink%20highlights%2C%20premium%20hair%20care%20products%2C%20sophisticated%20styling%20chair%2C%20luxury%20beauty%20environment&width=400&height=500&seq=gallery-4&orientation=portrait",
       alt: "Vopsit păr",
       category: "Coafură"
