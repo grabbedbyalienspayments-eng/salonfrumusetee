@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 
 export default function Header() {
@@ -22,6 +21,11 @@ export default function Header() {
     setIsMobileMenuOpen(false);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <header className={`fixed top-0 left-0 w-full z-40 transition-all duration-500 ${
       isScrolled 
@@ -32,9 +36,12 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-[#F5C84C] to-[#EFB7D5] bg-clip-text text-transparent font-['Playfair_Display']">
+            <button 
+              onClick={scrollToTop}
+              className="text-2xl font-bold bg-gradient-to-r from-[#F5C84C] to-[#EFB7D5] bg-clip-text text-transparent font-['Playfair_Display'] cursor-pointer hover:opacity-80 transition-opacity"
+            >
               Divine Beauty Studio
-            </h1>
+            </button>
           </div>
 
           {/* Desktop Navigation */}
