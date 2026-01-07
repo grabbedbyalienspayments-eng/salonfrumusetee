@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 
 export default function Booking() {
@@ -114,7 +113,7 @@ export default function Booking() {
                   onChange={handleInputChange}
                   required
                   className="w-full px-4 py-3 bg-white/10 border border-[#F5C84C]/30 rounded-xl text-white placeholder-white/50 focus:border-[#F5C84C] focus:outline-none transition-colors duration-300 font-['Inter'] text-sm"
-                  placeholder="07XX XXX XXX"
+                  placeholder="070 000 000"
                 />
               </div>
             </div>
