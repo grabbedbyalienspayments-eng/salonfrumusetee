@@ -1,4 +1,3 @@
-
 export default function Contact() {
   return (
     <section id="contact" className="py-20 px-6">
@@ -44,10 +43,10 @@ export default function Contact() {
                   <div>
                     <h4 className="text-white font-semibold mb-1 font-['Inter']">Telefon</h4>
                     <a 
-                      href="tel:+40721234567" 
+                      href="tel:0700000000" 
                       className="text-[#F5C84C] hover:text-[#EFB7D5] transition-colors duration-300 font-['Inter'] cursor-pointer"
                     >
-                      +40 721 234 567
+                      070 000 000
                     </a>
                   </div>
                 </div>
@@ -60,10 +59,10 @@ export default function Contact() {
                   <div className="min-w-0 flex-1">
                     <h4 className="text-white font-semibold mb-1 font-['Inter']">Email</h4>
                     <a 
-                      href="mailto:contact@divinebeautystudio.ro" 
+                      href="mailto:contact@contactdevinebeautystudio.ro" 
                       className="text-[#F5C84C] hover:text-[#EFB7D5] transition-colors duration-300 font-['Inter'] cursor-pointer break-words text-sm md:text-base"
                     >
-                      contact@divinebeautystudio.ro
+                      contact@contactdevinebeautystudio.ro
                     </a>
                   </div>
                 </div>
@@ -89,19 +88,25 @@ export default function Contact() {
                 <h4 className="text-white font-semibold mb-4 font-['Inter']">Urmărește-ne</h4>
                 <div className="flex space-x-4">
                   <a 
-                    href="#" 
+                    href="https://instagram.com" 
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-12 h-12 bg-gradient-to-r from-[#F5C84C] to-[#EFB7D5] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300 cursor-pointer"
                   >
                     <i className="ri-instagram-line text-[#0E0E0E] text-xl"></i>
                   </a>
                   <a 
-                    href="#" 
+                    href="https://facebook.com" 
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-12 h-12 bg-gradient-to-r from-[#F5C84C] to-[#EFB7D5] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300 cursor-pointer"
                   >
                     <i className="ri-facebook-line text-[#0E0E0E] text-xl"></i>
                   </a>
                   <a 
-                    href="#" 
+                    href="https://tiktok.com" 
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-12 h-12 bg-gradient-to-r from-[#F5C84C] to-[#EFB7D5] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300 cursor-pointer"
                   >
                     <i className="ri-tiktok-line text-[#0E0E0E] text-xl"></i>
