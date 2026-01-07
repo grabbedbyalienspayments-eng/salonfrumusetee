@@ -1,4 +1,3 @@
-
 export default function Team() {
   const teamMembers = [
     {
@@ -87,12 +86,22 @@ export default function Team() {
 
                 {/* Social Icons */}
                 <div className="flex justify-center space-x-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="w-10 h-10 bg-gradient-to-r from-[#F5C84C] to-[#EFB7D5] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300 cursor-pointer">
+                  <a 
+                    href="https://instagram.com" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-gradient-to-r from-[#F5C84C] to-[#EFB7D5] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300 cursor-pointer"
+                  >
                     <i className="ri-instagram-line text-[#0E0E0E]"></i>
-                  </div>
-                  <div className="w-10 h-10 bg-gradient-to-r from-[#F5C84C] to-[#EFB7D5] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300 cursor-pointer">
+                  </a>
+                  <a 
+                    href="https://facebook.com" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-gradient-to-r from-[#F5C84C] to-[#EFB7D5] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300 cursor-pointer"
+                  >
                     <i className="ri-facebook-line text-[#0E0E0E]"></i>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
